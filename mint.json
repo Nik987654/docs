@@ -1,0 +1,38 @@
+{
+  "name": "TestNS Documentation",
+  "favicon": "favicon.svg",
+  "colors": {
+    "primary": "#4A90E2",
+    "secondary": "#50E3C2",
+    "background": "#F7F7F7"
+  },
+  "theme": "venus",
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        {
+          "title": "Introduction",
+          "link": "introduction.mdx"
+        },
+        {
+          "title": "Quickstart",
+          "link": "quickstart.mdx"
+        }
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        {
+          "title": "API Overview",
+          "link": "api-reference/overview.mdx"
+        },
+        {
+          "title": "Endpoints",
+          "link": "api-reference/endpoints.mdx"
+        }
+      ]
+    }
+  ]
+}
